@@ -3,6 +3,9 @@
 --- !u!890905787 &1
 VersionControlSettings:
   m_ObjectHideFlags: 0
-  m_Mode: Visible Meta Files
+  m_Mode: Visible Meta Files  # Consider Hidden Meta Files if collaboration conflicts are minimal
   m_CollabEditorSettings:
-    inProgressEnabled: 1
+    inProgressEnabled: 1  # Enabled collaboration feature, ensure proper handling for conflicts and merging
+  m_SupportsRevisionHistory: true  # Added: Keeps track of revision history for better version management
+  m_AutoResolveConflicts: false  # Added: Manual conflict resolution for more control in case of merge issues
+
